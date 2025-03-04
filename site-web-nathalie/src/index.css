@@ -1,1 +1,33 @@
 @import "tailwindcss";
+
+@font-face {
+    font-family: "tan-aegan";
+    src: url("./font/tan-aegan.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "mohave-ligh";
+    src: url("./font/Mohave-Light.otf") format('truetype');
+}
+@font-face {
+    font-family: "mohave-medium";
+    src: url("./font/Mohave-Medium.otf") format('truetype');
+}
+@font-face {
+    font-family: "mohave-regular";
+    src: url("./font/Mohave-Regular.otf") format('truetype');
+}
+@font-face {
+    font-family: "mohave-bold";
+    src: url("./font/Mohave-Bold.otf") format('truetype');
+}
+
+@theme {
+    --font-logo: "tan-aegan", sans-serif;
+    --font-mh-light: "mohave-ligh", sans-serif;
+    --font-mh-medium: "mohave-medium", sans-serif;
+    --font-mh-regular: "mohave-regular", sans-serif;
+    --font-mh-bold: "mohave-bold", sans-serif;
+
+    --color-background: #ADA789;
+}
