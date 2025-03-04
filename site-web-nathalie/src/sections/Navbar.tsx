@@ -2,7 +2,7 @@ import '../index.css';
 
 const Navbar = () => {
     return (
-        <nav className="flex justify-evenly items-center h-20 bg-background">
+        <nav className="flex justify-evenly items-center h-20 bg-background border-b-[1px]">
             <div className='text-xl'>
                 <div className="font-logo">
                     <p>Nathalie</p>
