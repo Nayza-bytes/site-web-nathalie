@@ -13,10 +13,10 @@ const Navbar = () => {
             </div>
             <div >
                 <ul className='flex justify-evenly font-mh-light'>
-                    <li className='p-6'><a href='#'>A Propos</a></li>
-                    <li className='p-6'><a href='#'>Services</a></li>
-                    <li className='p-6'><a href='#'>Tarifs</a></li>
-                    <li className='p-6'><a href='#'>Contact</a></li>
+                    <li className='p-6 hover:font-mh-bold hover:underline'><a href='#'>A Propos</a></li>
+                    <li className='p-6 hover:font-mh-bold hover:underline'><a href='#'>Services</a></li>
+                    <li className='p-6 hover:font-mh-bold hover:underline'><a href='#'>Tarifs</a></li>
+                    <li className='p-6 hover:font-mh-bold hover:underline'><a href='#'>Contact</a></li>
                 </ul>
             </div>
         </nav>
